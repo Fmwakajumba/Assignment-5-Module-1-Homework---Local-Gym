@@ -1,0 +1,164 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(27, 27, 27);
+}
+
+
+.top {
+    background-color: blueviolet;
+    margin-top: -1rem;
+    padding-top: 1.5rem;
+    background-size: cover;
+    margin-bottom: -1rem;
+    letter-spacing: 0.1rem;
+}
+
+.top a:hover {
+    color: cyan;
+}
+
+.top a {
+    color: black;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.Home h1 {
+    padding-left: 3rem;
+}
+
+nav {
+    display: block;
+}
+
+nav li {
+    display: inline;
+}
+
+.top-links {
+    text-align: center;
+    margin-top: -1rem;
+}
+
+.container h1 {
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+form {
+    background-color: rgb(31, 30, 30);
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    width: 600px;
+    border: 2px solid #302d2d;
+    padding-right: 50px;
+    padding-left: 25px;
+    padding-bottom: 35px;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+input[name="email or number"], input[name="password"] {
+    width: 105%;
+    padding: 6px 5px;
+    margin: 5px 0;;
+    display: inline-block;
+    box-sizing: border-box;
+    text-decoration-color: grey;
+    border-color: rgb(189, 176, 176);
+    border-width: thin;
+}
+
+label[for="email"] {
+    font-size: smaller;
+    text-align: left;
+}
+
+label[for="password"] {
+    font-size: smaller;
+}
+
+.password-link {
+    float: right;
+    text-align: right;
+    font-size: medium;
+}
+
+.forgot {
+    text-decoration: none;
+}
+
+
+button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+button[type="submit"] {
+    width: 105%;
+    height: 2rem;
+    background-color: darkcyan;
+    border-color: darkgrey;
+    border-width: thin;
+}
+
+button[type="submit"] a {
+    color: black;
+    text-decoration: none;
+}
+
+.help a {
+    text-decoration: none;
+}
+
+p {
+    text-align: center;
+    line-height: 0.1em;
+    border-bottom: 1px solid #c5c3c3;
+}
+
+.new {
+    background: #fff;
+    padding:0 10px;
+    color: black;
+}
+
+.create-acct {
+    transform: translate(5%);
+    width: 90%;
+    height: 2rem;
+}
+
+.create-acct h4:hover {
+    color: blueviolet;
+}
+
+hr {
+    overflow: visible;
+    width: 385%;
+    transform: translate(-38%);
+}
+
+.links {
+    text-align: center;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    color: white;
+}

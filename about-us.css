@@ -1,0 +1,114 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+.top {
+    background-color: blueviolet;
+    margin-top: -1rem;
+    padding-top: 1.5rem;
+    background-size: cover;
+    margin-bottom: -1rem;
+    letter-spacing: 0.1rem;
+}
+
+.top a:hover {
+    color: cyan;
+}
+
+.top a {
+    color: black;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.Home h1 {
+    padding-left: 3rem;
+
+}
+
+nav {
+    display: block;
+}
+
+nav li {
+    display: inline;
+}
+
+.top-links {
+    text-align: center;
+    margin-top: -1rem;
+}
+
+.col-lg-5 {
+    background-color: rgb(31, 30, 30);
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    line-height: 3rem;
+}
+
+.col-lg-5 h1 {
+    color: blueviolet;
+    padding-top: 3rem;
+}
+
+.col-lg-5 p {
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    line-height: 3rem;
+}
+
+.col-lg-7 {
+    background-color: rgb(31, 30, 30);
+}
+
+.col-md-12 {
+    background-color: black;
+    margin-top: -3.7rem;
+    padding-top: 3rem;
+}
+
+.col-md-12 h1 {
+    color: darkcyan;
+}
+
+.col-md-12 h5 {
+    color: white;
+}
+
+div[id="bottom"] {
+    margin-top: -3rem;
+    background-color: rgb(31, 30, 30);
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+}
+
+.grid-container- {
+    color: white;
+    padding-top: 5rem;
+    padding-left: 10rem;
+    padding-bottom: 5rem;
+    display: grid;
+    grid-template-columns: repeat(4,350px);
+    grid-column-gap: 5rem;
+    margin-bottom: -1rem;
+    letter-spacing: 1px;
+}
+
+.grid-item-1 {
+    margin-top: 5rem;
+}
+
+
+.icon {
+    color: blueviolet;
+    background-color: rgb(31, 30, 30);
+    font-size: larger;
+
+}
+
+cite {
+    color: white;
+}
